@@ -1,0 +1,27 @@
+td,
+tr,
+table,
+th {
+    border: 1px solid black;
+
+}
+
+th {
+    background-color: bisque;
+}
+
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+
+.month {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+}
+
+.customers {
+    margin: 1rem;
+}
